@@ -89,10 +89,3 @@ VALUES
     SELECT * FROM movies ORDER BY name;
 
     SELECT * FROM directors ORDER BY birth_year DESC;
-	
-
-
-
-
-
-    
