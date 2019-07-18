@@ -515,6 +515,7 @@ INSERT INTO public.employee (id, person_id, hire_date, director_id, notes) VALUE
 
 INSERT INTO public.kind (id, name) VALUES (1, 'Domestic ');
 INSERT INTO public.kind (id, name) VALUES (2, 'Non-domestic ');
+INSERT INTO public.kind (id, name) VALUES (4, 'new kind');
 
 
 --
