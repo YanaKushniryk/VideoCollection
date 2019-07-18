@@ -870,7 +870,7 @@ INSERT INTO public.product (id, name, price, kind_id, country_id) VALUES (79, 'G
 INSERT INTO public.product (id, name, price, kind_id, country_id) VALUES (80, 'Pea ', '23,00 ?', 1, 66);
 INSERT INTO public.product (id, name, price, kind_id, country_id) VALUES (1, 'Tofu', '20,00 ?', 1, 1);
 INSERT INTO public.product(	id, name, price, kind_id, country_id) VALUES (81, 'milk', 23, 1, 20);
-
+INSERT INTO public.product( id, name, price, kind_id, country_id) VALUES (82,'milk', 23, 2, 3);
 
 --
 -- TOC entry 2724 (class 2606 OID 16550)
