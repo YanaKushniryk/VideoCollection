@@ -515,7 +515,11 @@ INSERT INTO public.employee (id, person_id, hire_date, director_id, notes) VALUE
 
 INSERT INTO public.kind (id, name) VALUES (1, 'Domestic ');
 INSERT INTO public.kind (id, name) VALUES (2, 'Non-domestic ');
+<<<<<<< HEAD
 INSERT INTO public.kind (id, name) VALUES (6, 'book');
+=======
+INSERT INTO public.kind (id, name) VALUES (4, 'new kind');
+>>>>>>> f7da7df083d3a45471af0c62cafecb1d7295daf7
 
 
 --
@@ -871,7 +875,7 @@ INSERT INTO public.product (id, name, price, kind_id, country_id) VALUES (79, 'G
 INSERT INTO public.product (id, name, price, kind_id, country_id) VALUES (80, 'Pea ', '23,00 ?', 1, 66);
 INSERT INTO public.product (id, name, price, kind_id, country_id) VALUES (1, 'Tofu', '20,00 ?', 1, 1);
 INSERT INTO public.product(	id, name, price, kind_id, country_id) VALUES (81, 'milk', 23, 1, 20);
-
+INSERT INTO public.product( id, name, price, kind_id, country_id) VALUES (82,'milk', 23, 2, 3);
 
 --
 -- TOC entry 2724 (class 2606 OID 16550)
